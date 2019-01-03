@@ -374,12 +374,11 @@
 
       
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><div id="echarts8280" style="width: 85%;height: 400px;margin: 0 auto"></div>
-<script src="http://echarts.baidu.com/dist/echarts.common.min.js"></script>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><div id="echarts1826" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts8280'));
-
+        var myChart = echarts.init(document.getElementById('echarts1826'));
         // 指定图表的配置项和数据
         var option = {
     tooltip : {
@@ -442,7 +441,6 @@
         }
     ]
 };
-
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 </script>
@@ -855,16 +853,16 @@
         var gitment = new Gitmint({
             id: window.location.pathname, 
             owner: 'ShineHua2017',
-            repo: 'https://github.com/ShineHua2017/guystalk.git',
+            repo: 'guystalk',
             
             lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
             
             oauth: {
             
             
-                client_secret: '597271bb577924794e041266cb81bc8a98cc339b',
+                client_secret: 'fae7e5c1b75630e40040ab9f261c7f7907ef4947',
             
-                client_id: '4c304a2ff45183961263'
+                client_id: '8fdd4092a2c9282a1074'
             }});
         gitment.render('gitment-container');
       }
