@@ -1,40 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[转调速查表和调性音阶图]]></title>
-    <url>%2Fharmonica-data%2F2019%2F01%2F05%2Fchanges-key%2F</url>
-    <content type="text"><![CDATA[此处整理收集转调工具表格 1.通用转调表格 资源提供者：Lee东东东东东 表格原作者：Harmonicazqj 2.半音阶转调表格 资源提供者：William(江苏常州) 表格原作者：未知]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>口琴入门思维导图</title>
+      <link href="/harmonica-data/2019/01/05/mind-mapping/"/>
+      <url>/harmonica-data/2019/01/05/mind-mapping/</url>
+      
+        <content type="html"><![CDATA[<h1 id="此处整理收集口琴入门相关的信息导航图"><a href="#此处整理收集口琴入门相关的信息导航图" class="headerlink" title="此处整理收集口琴入门相关的信息导航图"></a><center>此处整理收集口琴入门相关的信息导航图</center></h1><a id="more"></a><h3 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h3><ul><li><code>作者：筱赟</code></li></ul><div id="echarts2067" style="width: 95%;height: 600px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script><script type="text/javascript">            function loadJsonData(urls) {                var url = urls;                $.ajax({                    processData: true,                    data: "",                    timeout: 60000,                    dataType: "json",                    crossDomain: true,                    type: "POST",                    url: url,                    success: function (data) {                        if (typeof data != null && typeof data != "undefined") {                            return data;                        }                    },                    error: function (result, textStatus) {                        return null;                    }                });            }var mymap1 = loadJsonData("https://shinehua2017.github.io/mappingdata/mymap-1.json");console.log(JSON.stringify(mymap1));if (typeof mymap1 != null && typeof mymap1 != "undefined") {echarts.util.each(mymap1.children, function (datum, index) {index % 2 === 0 && (datum.collapsed = true);});}        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts2067'));        // 指定图表的配置项和数据        var option = {        tooltip: {            trigger: 'item',            triggerOn: 'mousemove'        },        series: [            {                type: 'tree',                data: [mymap1],                top: '1%',                left: '7%',                bottom: '1%',                right: '20%',                symbolSize: 7,                label: {                    normal: {                        position: 'left',                        verticalAlign: 'middle',                        align: 'right',                        fontSize: 9                    }                },                leaves: {                    label: {                        normal: {                            position: 'right',                            verticalAlign: 'middle',                            align: 'left'                        }                    }                },                expandAndCollapse: true,                animationDuration: 550,                animationDurationUpdate: 750            }        ]    });};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
+      
+      
       <categories>
-        <category>乐理</category>
+          
+          <category> 入门 </category>
+          
       </categories>
-      <tags>
-        <tag>口琴</tag>
-        <tag>半音阶</tag>
-        <tag>转调</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[乐谱书籍(Music Book)]]></title>
-    <url>%2Fharmonica-data%2F2019%2F01%2F04%2Fmusic-book%2F</url>
-    <content type="text"><![CDATA[此处整理收集乐谱书籍 1.ACG超多的半音阶#C调乐谱集合 资源提供者：Lee东东东东东]]></content>
+      
+      
+        <tags>
+            
+            <tag> 口琴 </tag>
+            
+            <tag> 信息图 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>转调速查表和调性音阶图</title>
+      <link href="/harmonica-data/2019/01/05/changes-key/"/>
+      <url>/harmonica-data/2019/01/05/changes-key/</url>
+      
+        <content type="html"><![CDATA[<h1 id="此处整理收集转调工具表格"><a href="#此处整理收集转调工具表格" class="headerlink" title="此处整理收集转调工具表格"></a><center>此处整理收集转调工具表格</center></h1><a id="more"></a><h3 id="1-通用转调表格"><a href="#1-通用转调表格" class="headerlink" title="1.通用转调表格"></a>1.通用转调表格</h3><blockquote><ul><li><code>资源提供者：Lee东东东东东</code></li><li><code>表格原作者：Harmonicazqj</code></li></ul></blockquote><p><img src="/harmonica-data/2019/01/05/changes-key/1.jpg" alt="通用转调表" title="通用转调表"></p><h3 id="2-半音阶转调表格"><a href="#2-半音阶转调表格" class="headerlink" title="2.半音阶转调表格"></a>2.半音阶转调表格</h3><blockquote><ul><li><code>资源提供者：William(江苏常州)</code></li><li><code>表格原作者：未知</code></li></ul></blockquote><p><img src="/harmonica-data/2019/01/05/changes-key/2.PNG" alt="半音阶转调表" title="半音阶转调表"></p>]]></content>
+      
+      
       <categories>
-        <category>乐谱</category>
+          
+          <category> 乐理 </category>
+          
       </categories>
-      <tags>
-        <tag>口琴</tag>
-        <tag>PDF</tag>
-        <tag>半音阶</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[开天辟地第一篇]]></title>
-    <url>%2Fharmonica-data%2F2019%2F01%2F03%2Fhello-harmonica%2F</url>
-    <content type="text"><![CDATA[站点我已搭，内容靠大家前言 作者：筱赟 网站用途 收集规整口琴学习相关资源索引 发布独创内容，无知识产权内容 内容 MIUI口琴值得拥有]]></content>
+      
+      
+        <tags>
+            
+            <tag> 口琴 </tag>
+            
+            <tag> 半音阶 </tag>
+            
+            <tag> 转调 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>乐谱书籍(Music Book)</title>
+      <link href="/harmonica-data/2019/01/04/music-book/"/>
+      <url>/harmonica-data/2019/01/04/music-book/</url>
+      
+        <content type="html"><![CDATA[<hr><h1 id="此处整理收集乐谱书籍"><a href="#此处整理收集乐谱书籍" class="headerlink" title="此处整理收集乐谱书籍"></a><center>此处整理收集乐谱书籍</center></h1><a id="more"></a><h3 id="1-ACG超多的半音阶-C调乐谱集合"><a href="#1-ACG超多的半音阶-C调乐谱集合" class="headerlink" title="1.ACG超多的半音阶#C调乐谱集合"></a>1.ACG超多的半音阶#C调乐谱集合</h3><ul><li><code>资源提供者：Lee东东东东东</code></li></ul><div class="row">    <embed src="./book.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+      
+      
       <categories>
-        <category>口水聊</category>
+          
+          <category> 乐谱 </category>
+          
       </categories>
-      <tags>
-        <tag>口琴</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 口琴 </tag>
+            
+            <tag> 半音阶 </tag>
+            
+            <tag> PDF </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>开天辟地第一篇</title>
+      <link href="/harmonica-data/2019/01/03/hello-harmonica/"/>
+      <url>/harmonica-data/2019/01/03/hello-harmonica/</url>
+      
+        <content type="html"><![CDATA[<h1 id="站点我已搭，内容靠大家"><a href="#站点我已搭，内容靠大家" class="headerlink" title="站点我已搭，内容靠大家"></a>站点我已搭，内容靠大家</h1><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><ul><li><code>作者：筱赟</code></li><li>网站用途<ul><li>收集规整口琴学习相关资源索引</li><li>发布独创内容，无知识产权内容     <a id="more"></a></li></ul></li></ul></blockquote><h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><blockquote><ul><li>MIUI口琴值得拥有<br><img src="/harmonica-data/2019/01/03/hello-harmonica/miui.jpg" alt="HAHA" title="米粉琴"></li></ul></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 口水聊 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 口琴 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
