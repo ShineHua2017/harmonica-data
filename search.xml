@@ -1,61 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>乐谱书籍(Music Book)</title>
-      <link href="/harmonica-data/2019/01/04/music-book/"/>
-      <url>/harmonica-data/2019/01/04/music-book/</url>
-      
-        <content type="html"><![CDATA[<hr><h1 id="此处整理收集乐谱书籍"><a href="#此处整理收集乐谱书籍" class="headerlink" title="此处整理收集乐谱书籍"></a><center>此处整理收集乐谱书籍</center></h1><h3 id="1-ACG超多的半音阶-C调乐谱集合"><a href="#1-ACG超多的半音阶-C调乐谱集合" class="headerlink" title="1.ACG超多的半音阶#C调乐谱集合"></a>1.ACG超多的半音阶#C调乐谱集合</h3><ul><li><code>资源提供者：Lee东东东东东</code><a id="more"></a><div class="row">    <embed src="./book.pdf" width="100%" height="550" type="application/pdf"></div></li></ul>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[转调速查表和调性音阶图]]></title>
+    <url>%2Fharmonica-data%2F2019%2F01%2F05%2Fchanges-key%2F</url>
+    <content type="text"><![CDATA[此处整理收集转调工具表格 1.通用转调表格 资源提供者：Lee东东东东东 表格原作者：Harmonicazqj 2.半音阶转调表格 资源提供者：William(江苏常州) 表格原作者：未知]]></content>
       <categories>
-          
-          <category> 乐谱 </category>
-          
+        <category>乐理</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 口琴 </tag>
-            
-            <tag> PDF </tag>
-            
-            <tag> 半音阶 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>开天辟地第一篇</title>
-      <link href="/harmonica-data/2019/01/03/hello-harmonica/"/>
-      <url>/harmonica-data/2019/01/03/hello-harmonica/</url>
-      
-        <content type="html"><![CDATA[<h1 id="站点我已搭，内容靠大家"><a href="#站点我已搭，内容靠大家" class="headerlink" title="站点我已搭，内容靠大家"></a>站点我已搭，内容靠大家</h1><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><ul><li><code>作者：筱赟</code></li><li>网站用途<ul><li>收集规整口琴学习相关资源索引</li><li>发布独创内容，无知识产权内容     <a id="more"></a></li></ul></li></ul></blockquote><h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><blockquote><ul><li>MIUI口琴值得拥有<br><img src="/harmonica-data/2019/01/03/hello-harmonica/miui.jpg" alt="HAHA" title="米粉琴"></li></ul></blockquote>]]></content>
-      
-      
+      <tags>
+        <tag>口琴</tag>
+        <tag>半音阶</tag>
+        <tag>转调</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[乐谱书籍(Music Book)]]></title>
+    <url>%2Fharmonica-data%2F2019%2F01%2F04%2Fmusic-book%2F</url>
+    <content type="text"><![CDATA[此处整理收集乐谱书籍 1.ACG超多的半音阶#C调乐谱集合 资源提供者：Lee东东东东东]]></content>
       <categories>
-          
-          <category> 口水聊 </category>
-          
+        <category>乐谱</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 口琴 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>口琴</tag>
+        <tag>PDF</tag>
+        <tag>半音阶</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[开天辟地第一篇]]></title>
+    <url>%2Fharmonica-data%2F2019%2F01%2F03%2Fhello-harmonica%2F</url>
+    <content type="text"><![CDATA[站点我已搭，内容靠大家前言 作者：筱赟 网站用途 收集规整口琴学习相关资源索引 发布独创内容，无知识产权内容 内容 MIUI口琴值得拥有]]></content>
+      <categories>
+        <category>口水聊</category>
+      </categories>
+      <tags>
+        <tag>口琴</tag>
+      </tags>
+  </entry>
 </search>
