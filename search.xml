@@ -1,65 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[口琴入门思维导图]]></title>
-    <url>%2Fharmonica-data%2F2019%2F01%2F05%2Fmind-mapping%2F</url>
-    <content type="text"><![CDATA[此处整理收集口琴入门相关的信息导航图2.依照活跃度目前适合我们学习的名家名师 作者：筱赟 var mymap1 = {"name":"独奏口琴","children":[{"name":"全音口琴","children":[{"name":"单排孔口琴","children":[{"name":"吹吸气同孔口琴","children":[{"name":"10孔布鲁斯口琴-国内外厂商均有生产","value":1},{"name":"12孔布鲁斯口琴-赛德","value":2},{"name":"12孔推键双调口琴(无膜)-赛德","value":3}]},{"name":"吹吸气分孔口琴","children":[{"name":"21孔单排单音口琴-东方鼎","value":4},{"name":"22单排单音口琴-通宝","value":5}]}]},{"name":"双排孔口琴","children":[{"name":"吹吸气分孔口琴","children":[{"name":"24孔复音口琴-国内外厂商均有生产","value":6},{"name":"22/21复音口琴-日本和台湾有生产","value":7}]}]}]},{"name":"半音口琴","children":[{"name":"吹吸气同孔口琴","children":[{"name":"12孔推键半音阶口琴-国内外厂商均有生产","value":8},{"name":"14孔推键半音阶口琴-铃木和HOHNER有生产","value":9},{"name":"16孔推键半音阶口琴-国内外厂商均有生产","value":10}]},{"name":"吹吸气分孔口琴","children":[{"name":"24孔半音阶口琴(无膜)-国产塔牌和上海牌","value":11},{"name":"22孔半音阶口琴(无膜)-通宝","value":12}]}]}]}; var mymap2 = {"name":"适合入门学习的名家名师","children":[{"name":"口琴学前预备班","children":[{"name":"杨晟_金口琴","children":[{"name":"活跃媒介：喜马拉雅","value":0}]},{"name":"田野老师","children":[{"name":"活跃媒介：人人讲APP","value":0}]}]},{"name":"半音阶","children":[{"name":"龙登杰","children":[{"name":"活跃媒介：人人讲APP","value":0},{"name":"活跃媒介：网易微博","value":1},{"name":"活跃媒介：知乎","value":2},{"name":"活跃媒介：虾米音乐","value":3},{"name":"活跃媒介：优酷","value":4},{"name":"活跃媒介：腾讯视频","value":5},{"name":"活跃媒介：B站","value":6}]},{"name":"沈洋","children":[{"name":"活跃媒介：优酷视频","value":0},{"name":"活跃媒介：微信公众号","value":1}]},{"name":"李让","children":[{"name":"活跃媒介：B站","value":0}]},{"name":"黄文胜","children":[{"name":"活跃媒介：书本","value":0}]},{"name":"白燕生","children":[{"name":"活跃媒介：书本","value":0}]},{"name":"陈云峰","children":[{"name":"活跃媒介：书本","value":0}]}]},{"name":"布鲁斯","children":[{"name":"张晓松","children":[{"name":"活跃媒介：蓝调口琴网","value":0},{"name":"活跃媒介：线下授课","value":1}]},{"name":"笨笨老师","children":[{"name":"活跃媒介：微信公众号","value":0},{"name":"活跃媒介：B站","value":1},{"name":"活跃媒介：优酷视频","value":2}]},{"name":"蓝馍馍","children":[{"name":"活跃媒介：人人讲APP","value":0},{"name":"活跃媒介：淘宝直播","value":1},{"name":"活跃媒介：优酷","value":2},{"name":"活跃媒介：B站","value":3},{"name":"活跃媒介：虾米音乐","value":4}]},{"name":"小光口琴","children":[{"name":"活跃媒介：淘宝直播","value":0},{"name":"活跃媒介：百度贴吧","value":1},{"name":"活跃媒介：优酷","value":2},{"name":"活跃媒介：B站","value":3}]},{"name":"杨乐","children":[{"name":"活跃媒介：CD录音","value":0}]}]}]}; if (typeof mymap1 != null && typeof mymap1 != "undefined") { echarts.util.each(mymap1.children, function (datum, index) { index % 2 === 0 && (datum.collapsed = true); }); } if (typeof mymap2 != null && typeof mymap2 != "undefined") { echarts.util.each(mymap2.children, function (datum, index) { index % 2 === 0 && (datum.collapsed = true); }); } // 基于准备好的dom，初始化echarts实例 var myChart = echarts.init(document.getElementById('echarts4298')); // 指定图表的配置项和数据 var option = { tooltip: { trigger: 'item', triggerOn: 'mousemove' }, series: [ { type: 'tree', data: [mymap2], top: '1%', left: '7%', bottom: '1%', right: '20%', symbolSize: 7, label: { normal: { position: 'left', verticalAlign: 'middle', align: 'right', fontSize: 12 } }, leaves: { label: { normal: { position: 'right', verticalAlign: 'middle', align: 'left' } } }, expandAndCollapse: true, animationDuration: 550, animationDurationUpdate: 750 } ] }; // 使用刚指定的配置项和数据显示图表。 myChart.setOption(option); 1.适合初学者和业余爱好者的口琴种类导图 作者：筱赟 var mymap1 = {"name":"独奏口琴","children":[{"name":"全音口琴","children":[{"name":"单排孔口琴","children":[{"name":"吹吸气同孔口琴","children":[{"name":"10孔布鲁斯口琴-国内外厂商均有生产","value":1},{"name":"12孔布鲁斯口琴-赛德","value":2},{"name":"12孔推键双调口琴(无膜)-赛德","value":3}]},{"name":"吹吸气分孔口琴","children":[{"name":"21孔单排单音口琴-东方鼎","value":4},{"name":"22单排单音口琴-通宝","value":5}]}]},{"name":"双排孔口琴","children":[{"name":"吹吸气分孔口琴","children":[{"name":"24孔复音口琴-国内外厂商均有生产","value":6},{"name":"22/21复音口琴-日本和台湾有生产","value":7}]}]}]},{"name":"半音口琴","children":[{"name":"吹吸气同孔口琴","children":[{"name":"12孔推键半音阶口琴-国内外厂商均有生产","value":8},{"name":"14孔推键半音阶口琴-铃木和HOHNER有生产","value":9},{"name":"16孔推键半音阶口琴-国内外厂商均有生产","value":10}]},{"name":"吹吸气分孔口琴","children":[{"name":"24孔半音阶口琴(无膜)-国产塔牌和上海牌","value":11},{"name":"22孔半音阶口琴(无膜)-通宝","value":12}]}]}]}; var mymap2 = {"name":"适合入门学习的名家名师","children":[{"name":"口琴学前预备班","children":[{"name":"杨晟_金口琴","children":[{"name":"活跃媒介：喜马拉雅","value":0}]},{"name":"田野老师","children":[{"name":"活跃媒介：人人讲APP","value":0}]}]},{"name":"半音阶","children":[{"name":"龙登杰","children":[{"name":"活跃媒介：人人讲APP","value":0},{"name":"活跃媒介：网易微博","value":1},{"name":"活跃媒介：知乎","value":2},{"name":"活跃媒介：虾米音乐","value":3},{"name":"活跃媒介：优酷","value":4},{"name":"活跃媒介：腾讯视频","value":5},{"name":"活跃媒介：B站","value":6}]},{"name":"沈洋","children":[{"name":"活跃媒介：优酷视频","value":0},{"name":"活跃媒介：微信公众号","value":1}]},{"name":"李让","children":[{"name":"活跃媒介：B站","value":0}]},{"name":"黄文胜","children":[{"name":"活跃媒介：书本","value":0}]},{"name":"白燕生","children":[{"name":"活跃媒介：书本","value":0}]},{"name":"陈云峰","children":[{"name":"活跃媒介：书本","value":0}]}]},{"name":"布鲁斯","children":[{"name":"张晓松","children":[{"name":"活跃媒介：蓝调口琴网","value":0},{"name":"活跃媒介：线下授课","value":1}]},{"name":"笨笨老师","children":[{"name":"活跃媒介：微信公众号","value":0},{"name":"活跃媒介：B站","value":1},{"name":"活跃媒介：优酷视频","value":2}]},{"name":"蓝馍馍","children":[{"name":"活跃媒介：人人讲APP","value":0},{"name":"活跃媒介：淘宝直播","value":1},{"name":"活跃媒介：优酷","value":2},{"name":"活跃媒介：B站","value":3},{"name":"活跃媒介：虾米音乐","value":4}]},{"name":"小光口琴","children":[{"name":"活跃媒介：淘宝直播","value":0},{"name":"活跃媒介：百度贴吧","value":1},{"name":"活跃媒介：优酷","value":2},{"name":"活跃媒介：B站","value":3}]},{"name":"杨乐","children":[{"name":"活跃媒介：CD录音","value":0}]}]}]}; if (typeof mymap1 != null && typeof mymap1 != "undefined") { echarts.util.each(mymap1.children, function (datum, index) { index % 2 === 0 && (datum.collapsed = true); }); } if (typeof mymap2 != null && typeof mymap2 != "undefined") { echarts.util.each(mymap2.children, function (datum, index) { index % 2 === 0 && (datum.collapsed = true); }); } // 基于准备好的dom，初始化echarts实例 var myChart = echarts.init(document.getElementById('echarts1364')); // 指定图表的配置项和数据 var option = { tooltip: { trigger: 'item', triggerOn: 'mousemove' }, series: [ { type: 'tree', data: [mymap1], top: '1%', left: '7%', bottom: '1%', right: '20%', symbolSize: 7, label: { normal: { position: 'left', verticalAlign: 'middle', align: 'right', fontSize: 12 } }, leaves: { label: { normal: { position: 'right', verticalAlign: 'middle', align: 'left' } } }, expandAndCollapse: true, animationDuration: 550, animationDurationUpdate: 750 } ] }; // 使用刚指定的配置项和数据显示图表。 myChart.setOption(option);]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>口琴入门思维导图</title>
+      <link href="/harmonica-data/2019/01/05/mind-mapping/"/>
+      <url>/harmonica-data/2019/01/05/mind-mapping/</url>
+      
+        <content type="html"><![CDATA[<h1 id="此处整理收集口琴入门相关的信息导航图"><a href="#此处整理收集口琴入门相关的信息导航图" class="headerlink" title="此处整理收集口琴入门相关的信息导航图"></a><center>此处整理收集口琴入门相关的信息导航图</center></h1><h3 id="2-依照活跃度目前适合我们学习的名家名师"><a href="#2-依照活跃度目前适合我们学习的名家名师" class="headerlink" title="2.依照活跃度目前适合我们学习的名家名师"></a>2.依照活跃度目前适合我们学习的名家名师</h3><ul><li><code>作者：筱赟</code><a id="more"></a></li></ul><div id="echarts184" style="width: 100%;height: 700px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>  <script type="text/javascript">var mymap1 = {"name":"独奏口琴","children":[{"name":"全音口琴","children":[{"name":"单排孔口琴","children":[{"name":"吹吸气同孔口琴","children":[{"name":"10孔布鲁斯口琴-国内外厂商均有生产","value":1},{"name":"12孔布鲁斯口琴-赛德","value":2},{"name":"12孔推键双调口琴(无膜)-赛德","value":3}]},{"name":"吹吸气分孔口琴","children":[{"name":"21孔单排单音口琴-东方鼎","value":4},{"name":"22单排单音口琴-通宝","value":5}]}]},{"name":"双排孔口琴","children":[{"name":"吹吸气分孔口琴","children":[{"name":"24孔复音口琴-国内外厂商均有生产","value":6},{"name":"22/21复音口琴-日本和台湾有生产","value":7}]}]}]},{"name":"半音口琴","children":[{"name":"吹吸气同孔口琴","children":[{"name":"12孔推键半音阶口琴-国内外厂商均有生产","value":8},{"name":"14孔推键半音阶口琴-铃木和HOHNER有生产","value":9},{"name":"16孔推键半音阶口琴-国内外厂商均有生产","value":10}]},{"name":"吹吸气分孔口琴","children":[{"name":"24孔半音阶口琴(无膜)-国产塔牌和上海牌","value":11},{"name":"22孔半音阶口琴(无膜)-通宝","value":12}]}]}]};var mymap2 = {"name":"适合入门学习的名家名师","children":[{"name":"口琴学前预备班","children":[{"name":"杨晟_金口琴","children":[{"name":"活跃媒介：喜马拉雅","value":0}]},{"name":"田野老师","children":[{"name":"活跃媒介：人人讲APP","value":0}]}]},{"name":"半音阶","children":[{"name":"龙登杰","children":[{"name":"活跃媒介：人人讲APP","value":0},{"name":"活跃媒介：网易微博","value":1},{"name":"活跃媒介：知乎","value":2},{"name":"活跃媒介：虾米音乐","value":3},{"name":"活跃媒介：优酷","value":4},{"name":"活跃媒介：腾讯视频","value":5},{"name":"活跃媒介：B站","value":6}]},{"name":"沈洋","children":[{"name":"活跃媒介：优酷视频","value":0},{"name":"活跃媒介：微信公众号","value":1}]},{"name":"李让","children":[{"name":"活跃媒介：B站","value":0}]},{"name":"黄文胜","children":[{"name":"活跃媒介：书本","value":0}]},{"name":"白燕生","children":[{"name":"活跃媒介：书本","value":0}]},{"name":"陈云峰","children":[{"name":"活跃媒介：书本","value":0}]}]},{"name":"布鲁斯","children":[{"name":"张晓松","children":[{"name":"活跃媒介：蓝调口琴网","value":0},{"name":"活跃媒介：线下授课","value":1}]},{"name":"笨笨老师","children":[{"name":"活跃媒介：微信公众号","value":0},{"name":"活跃媒介：B站","value":1},{"name":"活跃媒介：优酷视频","value":2}]},{"name":"蓝馍馍","children":[{"name":"活跃媒介：人人讲APP","value":0},{"name":"活跃媒介：淘宝直播","value":1},{"name":"活跃媒介：优酷","value":2},{"name":"活跃媒介：B站","value":3},{"name":"活跃媒介：虾米音乐","value":4}]},{"name":"小光口琴","children":[{"name":"活跃媒介：淘宝直播","value":0},{"name":"活跃媒介：百度贴吧","value":1},{"name":"活跃媒介：优酷","value":2},{"name":"活跃媒介：B站","value":3}]},{"name":"杨乐","children":[{"name":"活跃媒介：CD录音","value":0}]}]}]};if (typeof mymap1 != null && typeof mymap1 != "undefined") {echarts.util.each(mymap1.children, function (datum, index) {index % 2 === 0 && (datum.collapsed = true);});}if (typeof mymap2 != null && typeof mymap2 != "undefined") {echarts.util.each(mymap2.children, function (datum, index) {index % 2 === 0 && (datum.collapsed = true);});}        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts184'));        // 指定图表的配置项和数据        var option = {        tooltip: {            trigger: 'item',            triggerOn: 'mousemove'        },        series: [            {                type: 'tree',                data: [mymap2],                top: '1%',                left: '7%',                bottom: '1%',                right: '20%',                symbolSize: 7,                label: {                    normal: {                        position: 'left',                        verticalAlign: 'middle',                        align: 'right',                        fontSize: 12                    }                },                leaves: {                    label: {                        normal: {                            position: 'right',                            verticalAlign: 'middle',                            align: 'left'                        }                    }                },                expandAndCollapse: true,                animationDuration: 550,                animationDurationUpdate: 750            }        ]};         // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script><h3 id="1-适合初学者和业余爱好者的口琴种类导图"><a href="#1-适合初学者和业余爱好者的口琴种类导图" class="headerlink" title="1.适合初学者和业余爱好者的口琴种类导图"></a>1.适合初学者和业余爱好者的口琴种类导图</h3><ul><li><code>作者：筱赟</code></li></ul><div id="echarts7203" style="width: 100%;height: 600px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>  <script type="text/javascript">var mymap1 = {"name":"独奏口琴","children":[{"name":"全音口琴","children":[{"name":"单排孔口琴","children":[{"name":"吹吸气同孔口琴","children":[{"name":"10孔布鲁斯口琴-国内外厂商均有生产","value":1},{"name":"12孔布鲁斯口琴-赛德","value":2},{"name":"12孔推键双调口琴(无膜)-赛德","value":3}]},{"name":"吹吸气分孔口琴","children":[{"name":"21孔单排单音口琴-东方鼎","value":4},{"name":"22单排单音口琴-通宝","value":5}]}]},{"name":"双排孔口琴","children":[{"name":"吹吸气分孔口琴","children":[{"name":"24孔复音口琴-国内外厂商均有生产","value":6},{"name":"22/21复音口琴-日本和台湾有生产","value":7}]}]}]},{"name":"半音口琴","children":[{"name":"吹吸气同孔口琴","children":[{"name":"12孔推键半音阶口琴-国内外厂商均有生产","value":8},{"name":"14孔推键半音阶口琴-铃木和HOHNER有生产","value":9},{"name":"16孔推键半音阶口琴-国内外厂商均有生产","value":10}]},{"name":"吹吸气分孔口琴","children":[{"name":"24孔半音阶口琴(无膜)-国产塔牌和上海牌","value":11},{"name":"22孔半音阶口琴(无膜)-通宝","value":12}]}]}]};var mymap2 = {"name":"适合入门学习的名家名师","children":[{"name":"口琴学前预备班","children":[{"name":"杨晟_金口琴","children":[{"name":"活跃媒介：喜马拉雅","value":0}]},{"name":"田野老师","children":[{"name":"活跃媒介：人人讲APP","value":0}]}]},{"name":"半音阶","children":[{"name":"龙登杰","children":[{"name":"活跃媒介：人人讲APP","value":0},{"name":"活跃媒介：网易微博","value":1},{"name":"活跃媒介：知乎","value":2},{"name":"活跃媒介：虾米音乐","value":3},{"name":"活跃媒介：优酷","value":4},{"name":"活跃媒介：腾讯视频","value":5},{"name":"活跃媒介：B站","value":6}]},{"name":"沈洋","children":[{"name":"活跃媒介：优酷视频","value":0},{"name":"活跃媒介：微信公众号","value":1}]},{"name":"李让","children":[{"name":"活跃媒介：B站","value":0}]},{"name":"黄文胜","children":[{"name":"活跃媒介：书本","value":0}]},{"name":"白燕生","children":[{"name":"活跃媒介：书本","value":0}]},{"name":"陈云峰","children":[{"name":"活跃媒介：书本","value":0}]}]},{"name":"布鲁斯","children":[{"name":"张晓松","children":[{"name":"活跃媒介：蓝调口琴网","value":0},{"name":"活跃媒介：线下授课","value":1}]},{"name":"笨笨老师","children":[{"name":"活跃媒介：微信公众号","value":0},{"name":"活跃媒介：B站","value":1},{"name":"活跃媒介：优酷视频","value":2}]},{"name":"蓝馍馍","children":[{"name":"活跃媒介：人人讲APP","value":0},{"name":"活跃媒介：淘宝直播","value":1},{"name":"活跃媒介：优酷","value":2},{"name":"活跃媒介：B站","value":3},{"name":"活跃媒介：虾米音乐","value":4}]},{"name":"小光口琴","children":[{"name":"活跃媒介：淘宝直播","value":0},{"name":"活跃媒介：百度贴吧","value":1},{"name":"活跃媒介：优酷","value":2},{"name":"活跃媒介：B站","value":3}]},{"name":"杨乐","children":[{"name":"活跃媒介：CD录音","value":0}]}]}]};if (typeof mymap1 != null && typeof mymap1 != "undefined") {echarts.util.each(mymap1.children, function (datum, index) {index % 2 === 0 && (datum.collapsed = true);});}if (typeof mymap2 != null && typeof mymap2 != "undefined") {echarts.util.each(mymap2.children, function (datum, index) {index % 2 === 0 && (datum.collapsed = true);});}        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts7203'));        // 指定图表的配置项和数据        var option = {        tooltip: {            trigger: 'item',            triggerOn: 'mousemove'        },        series: [            {                type: 'tree',                data: [mymap1],                top: '1%',                left: '7%',                bottom: '1%',                right: '20%',                symbolSize: 7,                label: {                    normal: {                        position: 'left',                        verticalAlign: 'middle',                        align: 'right',                        fontSize: 12                    }                },                leaves: {                    label: {                        normal: {                            position: 'right',                            verticalAlign: 'middle',                            align: 'left'                        }                    }                },                expandAndCollapse: true,                animationDuration: 550,                animationDurationUpdate: 750            }        ]};         // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
+      
+      
       <categories>
-        <category>入门</category>
+          
+          <category> 入门 </category>
+          
       </categories>
-      <tags>
-        <tag>口琴</tag>
-        <tag>信息图</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[麻省理工开源Scratch给你一个免费口琴陪练师]]></title>
-    <url>%2Fharmonica-data%2F2019%2F01%2F05%2Frobot-teacher%2F</url>
-    <content type="text"><![CDATA[怎样简单快速验证自己转的谱子是不是错的？怎样比较自己演奏的节拍是否正确？乐句复杂速度又快的曲子要是有大师用&lt;50bpm速度分段演示就好了？有了Scratch以上都不是问题！前言 本博文作者：筱赟 用途：儿童图形化积木软件的自动编谱&amp;演奏功能来学习口琴谱子 来源：美国麻省理工(MIT)培养全球儿童编程能力的良心开源项目 版本：网页版和安装版两种自由选择 费用：完全免费，免注册 特点：自定义速率和乐器类型演奏自编小节或乐句 软件介绍 维基百科 百度百科 软件官方信息 官方主页链接 在线网页版链接 离线版下载链接 软件工作界面 详细使用说明(网页版)1.使用非IE浏览器打开网页版 在线版点这里2.第一次使用时点击标题栏地球图标，选择简体中文3.点击左下角添加扩展，在弹出的选项中选择音乐模块4.会出现如下图积木元素5.点击左边栏黄色圆球(事件),鼠标拉动绿色旗子积木到中间工作区，作为开始开关6.再点击左边栏音乐图标，回到音乐模块积木区7.依照下图顺序依次拖拽积木拼接到绿色旗子积木下面，可以鼠标点击自由选择乐器类型，填写BPM速度8.这里要注意上图积木区的休止和演奏音符两个积木，分别代表乐谱的休止符和音符9.再拖拽添加一个演奏音符拼接到工作区,点击中间的60圆圈会弹出钢琴黑白键让我们选择。 点击键盘左右两端的白色箭头，可以切换高低八度区10.到这一步准备工作就都OK了，可以先点击页面上部的文件选项保存文件11.先看一下国际标准MIDI键盘编号图，有助于我们将谱子转成MIDI键盘号 黄色为中央A–&gt;对应键盘编号69 蓝色为小字一组c1–&gt;对应键盘编号60（所以知道上图的60编号哪来的了吧）12.通过那么一丢丢的简谱乐理知识和音符编码表我们试着把《紫色激情》的谱子前三小节转换如下13.下面就是依照谱子添加演奏音符和休止符并设置正确的拍子即可，最后点击绿色旗子演奏14.最后放上我保存好的演奏实例文件下载链接。你可以下载到本地，使用文件菜单导入功能直接播放点击下载 总结 可以作为节拍和速率绝对准确的参考 可以方便的减慢BPM速率分段演奏，便于自己学习复杂又快速的乐句]]></content>
+      
+      
+        <tags>
+            
+            <tag> 口琴 </tag>
+            
+            <tag> 信息图 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>麻省理工开源Scratch给你一个免费口琴陪练师</title>
+      <link href="/harmonica-data/2019/01/05/robot-teacher/"/>
+      <url>/harmonica-data/2019/01/05/robot-teacher/</url>
+      
+        <content type="html"><![CDATA[<h3 id="怎样简单快速验证自己转的谱子是不是错的？"><a href="#怎样简单快速验证自己转的谱子是不是错的？" class="headerlink" title="怎样简单快速验证自己转的谱子是不是错的？"></a><center>怎样简单快速验证自己转的谱子是不是错的？</center></h3><h3 id="怎样比较自己演奏的节拍是否正确？"><a href="#怎样比较自己演奏的节拍是否正确？" class="headerlink" title="怎样比较自己演奏的节拍是否正确？"></a><center>怎样比较自己演奏的节拍是否正确？</center></h3><h3 id="乐句复杂速度又快的曲子要是有大师用-lt-50bpm速度分段演示就好了？"><a href="#乐句复杂速度又快的曲子要是有大师用-lt-50bpm速度分段演示就好了？" class="headerlink" title="乐句复杂速度又快的曲子要是有大师用&lt;50bpm速度分段演示就好了？"></a><center>乐句复杂速度又快的曲子要是有大师用&lt;50bpm速度分段演示就好了？</center></h3><h3 id="有了Scratch以上都不是问题！"><a href="#有了Scratch以上都不是问题！" class="headerlink" title="有了Scratch以上都不是问题！"></a><center>有了Scratch以上都不是问题！</center></h3><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><blockquote><ul><li><code>本博文作者：筱赟</code></li><li><code>用途：儿童图形化积木软件的自动编谱&amp;演奏功能来学习口琴谱子</code></li><li><code>来源：美国麻省理工(MIT)培养全球儿童编程能力的良心开源项目</code></li><li><code>版本：网页版和安装版两种自由选择</code></li><li><code>费用：完全免费，免注册</code></li><li><code>特点：自定义速率和乐器类型演奏自编小节或乐句</code><a id="more"></a></li></ul></blockquote><h3 id="软件介绍"><a href="#软件介绍" class="headerlink" title="软件介绍"></a>软件介绍</h3><blockquote><ul><li><a href="https://en.wikipedia.org/wiki/Scratch_(programming_language)" title="点击打开" target="_blank" rel="noopener">维基百科</a></li></ul></blockquote><blockquote><ul><li><a href="https://baike.baidu.com/item/Scratch/15493636?fr=aladdin" title="点击打开" target="_blank" rel="noopener">百度百科</a></li></ul></blockquote><blockquote><ul><li>软件官方信息<ul><li><a href="https://scratch.mit.edu" target="_blank" rel="noopener">官方主页链接</a></li><li><a href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted" target="_blank" rel="noopener">在线网页版链接</a></li><li><a href="https://scratch.mit.edu/download" target="_blank" rel="noopener">离线版下载链接</a></li></ul></li><li>软件工作界面<br><img src="/harmonica-data/2019/01/05/robot-teacher/scratchui.png" alt="Scratch3.0" title="演奏《紫色激情》前三小节"></li></ul></blockquote><h3 id="详细使用说明-网页版"><a href="#详细使用说明-网页版" class="headerlink" title="详细使用说明(网页版)"></a>详细使用说明(网页版)</h3><p>1.使用非IE浏览器打开网页版 <a href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted" title="点击打开" target="_blank" rel="noopener">在线版点这里</a><br>2.第一次使用时点击标题栏地球图标，选择简体中文<br><img src="/harmonica-data/2019/01/05/robot-teacher/lan.png" alt="选择语言" title="设置中文显示"><br>3.点击左下角添加扩展，在弹出的选项中选择音乐模块<br><img src="/harmonica-data/2019/01/05/robot-teacher/addmodule1.png" alt="添加" title="添加扩展"><br><img src="/harmonica-data/2019/01/05/robot-teacher/addmodule2.png" alt="加入" title="音乐模块"><br>4.会出现如下图积木元素<br><img src="/harmonica-data/2019/01/05/robot-teacher/addmodule3.png" alt="元素" title="音乐积木元素"><br>5.点击左边栏黄色圆球(事件),鼠标拉动绿色旗子积木到中间工作区，作为开始开关<br><img src="/harmonica-data/2019/01/05/robot-teacher/action1.png" alt="触发" title="点击触发积木元素"><br>6.再点击左边栏音乐图标，回到音乐模块积木区<br><img src="/harmonica-data/2019/01/05/robot-teacher/action2.png" alt="元素" title="音乐模块"><br>7.依照下图顺序依次拖拽积木拼接到绿色旗子积木下面，可以鼠标点击自由选择乐器类型，填写BPM速度<br><img src="/harmonica-data/2019/01/05/robot-teacher/action3.png" alt="元素" title="准备演奏环境"><br>8.这里要注意上图积木区的休止和演奏音符两个积木，分别代表乐谱的休止符和音符<br>9.再拖拽添加一个演奏音符拼接到工作区,点击中间的60圆圈会弹出钢琴黑白键让我们选择。<br>  点击键盘左右两端的白色箭头，可以切换高低八度区<br><img src="/harmonica-data/2019/01/05/robot-teacher/tone.png" alt="元素" title="尝试设置音符音高"><br>10.到这一步准备工作就都OK了，可以先点击页面上部的文件选项保存文件<br>11.先看一下国际标准MIDI键盘编号图，有助于我们将谱子转成MIDI键盘号</p><blockquote><ul><li>黄色为中央A–&gt;对应键盘编号69</li><li>蓝色为小字一组c1–&gt;对应键盘编号60（所以知道上图的60编号哪来的了吧）<br><img src="/harmonica-data/2019/01/05/robot-teacher/midinoteno.PNG" alt="音符编码表" title="音符编码表"><br>12.通过那么一丢丢的简谱乐理知识和音符编码表我们试着把《紫色激情》的谱子前三小节转换如下<br><img src="/harmonica-data/2019/01/05/robot-teacher/check.png" alt="转谱" title="谱子转MIDI编号"><br>13.下面就是依照谱子添加演奏音符和休止符并设置正确的拍子即可，最后点击绿色旗子演奏<br><img src="/harmonica-data/2019/01/05/robot-teacher/end.png" alt="演奏" title="演奏谱子"><br>14.最后放上我保存好的演奏实例文件下载链接。你可以下载到本地，使用文件菜单导入功能直接播放<a href="https://pan.baidu.com/s/10z3aWvXSVJyhbt5ARA9N6g" title="点击打开" target="_blank" rel="noopener">点击下载</a><img src="/harmonica-data/2019/01/05/robot-teacher/import.png" alt="导入" title="导入演奏文件"></li></ul></blockquote><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><blockquote><ul><li>可以作为节拍和速率绝对准确的参考</li><li>可以方便的减慢BPM速率分段演奏，便于自己学习复杂又快速的乐句</li></ul></blockquote>]]></content>
+      
+      
       <categories>
-        <category>入门</category>
+          
+          <category> 入门 </category>
+          
       </categories>
-      <tags>
-        <tag>口琴</tag>
-        <tag>转调</tag>
-        <tag>软件辅助</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[转调速查表和调性音阶图]]></title>
-    <url>%2Fharmonica-data%2F2019%2F01%2F05%2Fchanges-key%2F</url>
-    <content type="text"><![CDATA[此处整理收集转调工具表格 1.通用转调表格 资源提供者：Lee东东东东东 表格原作者：Harmonicazqj 2.半音阶转调表格 资源提供者：William(江苏常州) 表格原作者：未知]]></content>
+      
+      
+        <tags>
+            
+            <tag> 口琴 </tag>
+            
+            <tag> 转调 </tag>
+            
+            <tag> 软件辅助 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>转调速查表和调性音阶图</title>
+      <link href="/harmonica-data/2019/01/05/changes-key/"/>
+      <url>/harmonica-data/2019/01/05/changes-key/</url>
+      
+        <content type="html"><![CDATA[<h1 id="此处整理收集转调工具表格"><a href="#此处整理收集转调工具表格" class="headerlink" title="此处整理收集转调工具表格"></a><center>此处整理收集转调工具表格</center></h1><a id="more"></a><h3 id="1-通用转调表格"><a href="#1-通用转调表格" class="headerlink" title="1.通用转调表格"></a>1.通用转调表格</h3><blockquote><ul><li><code>资源提供者：Lee东东东东东</code></li><li><code>表格原作者：Harmonicazqj</code></li></ul></blockquote><p><img src="/harmonica-data/2019/01/05/changes-key/1.jpg" alt="通用转调表" title="通用转调表"></p><h3 id="2-半音阶转调表格"><a href="#2-半音阶转调表格" class="headerlink" title="2.半音阶转调表格"></a>2.半音阶转调表格</h3><blockquote><ul><li><code>资源提供者：William(江苏常州)</code></li><li><code>表格原作者：未知</code></li></ul></blockquote><p><img src="/harmonica-data/2019/01/05/changes-key/2.PNG" alt="半音阶转调表" title="半音阶转调表"></p>]]></content>
+      
+      
       <categories>
-        <category>乐理</category>
+          
+          <category> 乐理 </category>
+          
       </categories>
-      <tags>
-        <tag>口琴</tag>
-        <tag>半音阶</tag>
-        <tag>转调</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[乐谱书籍(Music Book)]]></title>
-    <url>%2Fharmonica-data%2F2019%2F01%2F04%2Fmusic-book%2F</url>
-    <content type="text"><![CDATA[此处整理收集乐谱书籍 1.ACG超多的半音阶#C调乐谱集合 资源提供者：Lee东东东东东]]></content>
+      
+      
+        <tags>
+            
+            <tag> 口琴 </tag>
+            
+            <tag> 半音阶 </tag>
+            
+            <tag> 转调 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>乐谱书籍(Music Book)</title>
+      <link href="/harmonica-data/2019/01/04/music-book/"/>
+      <url>/harmonica-data/2019/01/04/music-book/</url>
+      
+        <content type="html"><![CDATA[<hr><h1 id="此处整理收集乐谱书籍"><a href="#此处整理收集乐谱书籍" class="headerlink" title="此处整理收集乐谱书籍"></a><center>此处整理收集乐谱书籍</center></h1><a id="more"></a><h3 id="1-ACG超多的半音阶-C调乐谱集合"><a href="#1-ACG超多的半音阶-C调乐谱集合" class="headerlink" title="1.ACG超多的半音阶#C调乐谱集合"></a>1.ACG超多的半音阶#C调乐谱集合</h3><ul><li><code>资源提供者：Lee东东东东东</code></li></ul><div class="row">    <embed src="./book.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+      
+      
       <categories>
-        <category>乐谱</category>
+          
+          <category> 乐谱 </category>
+          
       </categories>
-      <tags>
-        <tag>口琴</tag>
-        <tag>半音阶</tag>
-        <tag>PDF</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[开天辟地第一篇]]></title>
-    <url>%2Fharmonica-data%2F2019%2F01%2F03%2Fhello-harmonica%2F</url>
-    <content type="text"><![CDATA[站点我已搭，内容靠大家前言 作者：筱赟 网站用途 收集规整口琴学习相关资源索引 发布独创内容，无知识产权内容 内容 MIUI口琴值得拥有]]></content>
+      
+      
+        <tags>
+            
+            <tag> 口琴 </tag>
+            
+            <tag> 半音阶 </tag>
+            
+            <tag> PDF </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>开天辟地第一篇</title>
+      <link href="/harmonica-data/2019/01/03/hello-harmonica/"/>
+      <url>/harmonica-data/2019/01/03/hello-harmonica/</url>
+      
+        <content type="html"><![CDATA[<h1 id="站点我已搭，内容靠大家"><a href="#站点我已搭，内容靠大家" class="headerlink" title="站点我已搭，内容靠大家"></a>站点我已搭，内容靠大家</h1><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><ul><li><code>作者：筱赟</code></li><li>网站用途<ul><li>收集规整口琴学习相关资源索引</li><li>发布独创内容，无知识产权内容     <a id="more"></a></li></ul></li></ul></blockquote><h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><blockquote><ul><li>MIUI口琴值得拥有<br><img src="/harmonica-data/2019/01/03/hello-harmonica/miui.jpg" alt="HAHA" title="米粉琴"></li></ul></blockquote>]]></content>
+      
+      
       <categories>
-        <category>口水聊</category>
+          
+          <category> 口水聊 </category>
+          
       </categories>
-      <tags>
-        <tag>口琴</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 口琴 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
