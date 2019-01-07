@@ -1,117 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>口琴入门思维导图</title>
-      <link href="/harmonica-data/2019/01/05/mind-mapping/"/>
-      <url>/harmonica-data/2019/01/05/mind-mapping/</url>
-      
-        <content type="html"><![CDATA[<h1 id="此处整理收集口琴入门相关的信息导航图"><a href="#此处整理收集口琴入门相关的信息导航图" class="headerlink" title="此处整理收集口琴入门相关的信息导航图"></a><center>此处整理收集口琴入门相关的信息导航图</center></h1><a id="more"></a><h3 id="1-适合初学者和业余爱好者的口琴种类导图"><a href="#1-适合初学者和业余爱好者的口琴种类导图" class="headerlink" title="1.适合初学者和业余爱好者的口琴种类导图"></a>1.适合初学者和业余爱好者的口琴种类导图</h3><ul><li><code>作者：筱赟</code></li></ul><div id="echarts1373" style="width: 100%;height: 600px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>  <script type="text/javascript">var mymap1 = {"name":"独奏口琴","children":[{"name":"全音口琴","children":[{"name":"单排孔口琴","children":[{"name":"吹吸气同孔口琴","children":[{"name":"10孔布鲁斯口琴-国内外厂商均有生产","value":1},{"name":"12孔布鲁斯口琴-赛德","value":2},{"name":"12孔推键双调口琴(无膜)-赛德","value":3}]},{"name":"吹吸气分孔口琴","children":[{"name":"21孔单排单音口琴-东方鼎","value":4},{"name":"22单排单音口琴-通宝","value":5}]}]},{"name":"双排孔口琴","children":[{"name":"吹吸气分孔口琴","children":[{"name":"24孔复音口琴-国内外厂商均有生产","value":6},{"name":"22/21复音口琴-日本和台湾有生产","value":7}]}]}]},{"name":"半音口琴","children":[{"name":"吹吸气同孔口琴","children":[{"name":"12孔推键半音阶口琴-国内外厂商均有生产","value":8},{"name":"14孔推键半音阶口琴-铃木和HOHNER有生产","value":9},{"name":"16孔推键半音阶口琴-国内外厂商均有生产","value":10}]},{"name":"吹吸气分孔口琴","children":[{"name":"24孔半音阶口琴(无膜)-国产塔牌和上海牌","value":11},{"name":"22孔半音阶口琴(无膜)-通宝","value":12}]}]}]};if (typeof mymap1 != null && typeof mymap1 != "undefined") {echarts.util.each(mymap1.children, function (datum, index) {index % 2 === 0 && (datum.collapsed = true);});}        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts1373'));        // 指定图表的配置项和数据        var option = {        tooltip: {            trigger: 'item',            triggerOn: 'mousemove'        },        series: [            {                type: 'tree',                data: [mymap1],                top: '1%',                left: '7%',                bottom: '1%',                right: '20%',                symbolSize: 7,                label: {                    normal: {                        position: 'left',                        verticalAlign: 'middle',                        align: 'right',                        fontSize: 11                    }                },                leaves: {                    label: {                        normal: {                            position: 'right',                            verticalAlign: 'middle',                            align: 'left'                        }                    }                },                expandAndCollapse: true,                animationDuration: 550,                animationDurationUpdate: 750            }        ]};         // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[口琴入门思维导图]]></title>
+    <url>%2Fharmonica-data%2F2019%2F01%2F05%2Fmind-mapping%2F</url>
+    <content type="text"><![CDATA[此处整理收集口琴入门相关的信息导航图2.依照活跃度目前适合我们学习的名家名师 作者：筱赟 var mymap1 = {"name":"独奏口琴","children":[{"name":"全音口琴","children":[{"name":"单排孔口琴","children":[{"name":"吹吸气同孔口琴","children":[{"name":"10孔布鲁斯口琴-国内外厂商均有生产","value":1},{"name":"12孔布鲁斯口琴-赛德","value":2},{"name":"12孔推键双调口琴(无膜)-赛德","value":3}]},{"name":"吹吸气分孔口琴","children":[{"name":"21孔单排单音口琴-东方鼎","value":4},{"name":"22单排单音口琴-通宝","value":5}]}]},{"name":"双排孔口琴","children":[{"name":"吹吸气分孔口琴","children":[{"name":"24孔复音口琴-国内外厂商均有生产","value":6},{"name":"22/21复音口琴-日本和台湾有生产","value":7}]}]}]},{"name":"半音口琴","children":[{"name":"吹吸气同孔口琴","children":[{"name":"12孔推键半音阶口琴-国内外厂商均有生产","value":8},{"name":"14孔推键半音阶口琴-铃木和HOHNER有生产","value":9},{"name":"16孔推键半音阶口琴-国内外厂商均有生产","value":10}]},{"name":"吹吸气分孔口琴","children":[{"name":"24孔半音阶口琴(无膜)-国产塔牌和上海牌","value":11},{"name":"22孔半音阶口琴(无膜)-通宝","value":12}]}]}]}; var mymap2 = {"name":"适合入门学习的名家名师","children":[{"name":"口琴学前预备班","children":[{"name":"杨晟_金口琴","children":[{"name":"活跃媒介：喜马拉雅","value":0}]},{"name":"田野老师","children":[{"name":"活跃媒介：人人讲APP","value":0}]}]},{"name":"半音阶","children":[{"name":"龙登杰","children":[{"name":"活跃媒介：人人讲APP","value":0},{"name":"活跃媒介：网易微博","value":1},{"name":"活跃媒介：知乎","value":2},{"name":"活跃媒介：虾米音乐","value":3},{"name":"活跃媒介：优酷","value":4},{"name":"活跃媒介：腾讯视频","value":5},{"name":"活跃媒介：B站","value":6}]},{"name":"沈洋","children":[{"name":"活跃媒介：优酷视频","value":0},{"name":"活跃媒介：微信公众号","value":1}]},{"name":"李让","children":[{"name":"活跃媒介：B站","value":0}]},{"name":"黄文胜","children":[{"name":"活跃媒介：书本","value":0}]},{"name":"白燕生","children":[{"name":"活跃媒介：书本","value":0}]},{"name":"陈云峰","children":[{"name":"活跃媒介：书本","value":0}]}]},{"name":"布鲁斯","children":[{"name":"张晓松","children":[{"name":"活跃媒介：蓝调口琴网","value":0},{"name":"活跃媒介：线下授课","value":1}]},{"name":"笨笨老师","children":[{"name":"活跃媒介：微信公众号","value":0},{"name":"活跃媒介：B站","value":1},{"name":"活跃媒介：优酷视频","value":2}]},{"name":"蓝馍馍","children":[{"name":"活跃媒介：人人讲APP","value":0},{"name":"活跃媒介：淘宝直播","value":1},{"name":"活跃媒介：优酷","value":2},{"name":"活跃媒介：B站","value":3},{"name":"活跃媒介：虾米音乐","value":4}]},{"name":"小光口琴","children":[{"name":"活跃媒介：淘宝直播","value":0},{"name":"活跃媒介：百度贴吧","value":1},{"name":"活跃媒介：优酷","value":2},{"name":"活跃媒介：B站","value":3}]},{"name":"杨乐","children":[{"name":"活跃媒介：CD录音","value":0}]}]}]}; if (typeof mymap1 != null && typeof mymap1 != "undefined") { echarts.util.each(mymap1.children, function (datum, index) { index % 2 === 0 && (datum.collapsed = true); }); } if (typeof mymap2 != null && typeof mymap2 != "undefined") { echarts.util.each(mymap2.children, function (datum, index) { index % 2 === 0 && (datum.collapsed = true); }); } // 基于准备好的dom，初始化echarts实例 var myChart = echarts.init(document.getElementById('echarts6720')); // 指定图表的配置项和数据 var option = { tooltip: { trigger: 'item', triggerOn: 'mousemove' }, series: [ { type: 'tree', data: [mymap2], top: '1%', left: '7%', bottom: '1%', right: '20%', symbolSize: 7, label: { normal: { position: 'left', verticalAlign: 'middle', align: 'right', fontSize: 12 } }, leaves: { label: { normal: { position: 'right', verticalAlign: 'middle', align: 'left' } } }, expandAndCollapse: true, animationDuration: 550, animationDurationUpdate: 750 } ] }; // 使用刚指定的配置项和数据显示图表。 myChart.setOption(option); 1.适合初学者和业余爱好者的口琴种类导图 作者：筱赟 var mymap1 = {"name":"独奏口琴","children":[{"name":"全音口琴","children":[{"name":"单排孔口琴","children":[{"name":"吹吸气同孔口琴","children":[{"name":"10孔布鲁斯口琴-国内外厂商均有生产","value":1},{"name":"12孔布鲁斯口琴-赛德","value":2},{"name":"12孔推键双调口琴(无膜)-赛德","value":3}]},{"name":"吹吸气分孔口琴","children":[{"name":"21孔单排单音口琴-东方鼎","value":4},{"name":"22单排单音口琴-通宝","value":5}]}]},{"name":"双排孔口琴","children":[{"name":"吹吸气分孔口琴","children":[{"name":"24孔复音口琴-国内外厂商均有生产","value":6},{"name":"22/21复音口琴-日本和台湾有生产","value":7}]}]}]},{"name":"半音口琴","children":[{"name":"吹吸气同孔口琴","children":[{"name":"12孔推键半音阶口琴-国内外厂商均有生产","value":8},{"name":"14孔推键半音阶口琴-铃木和HOHNER有生产","value":9},{"name":"16孔推键半音阶口琴-国内外厂商均有生产","value":10}]},{"name":"吹吸气分孔口琴","children":[{"name":"24孔半音阶口琴(无膜)-国产塔牌和上海牌","value":11},{"name":"22孔半音阶口琴(无膜)-通宝","value":12}]}]}]}; var mymap2 = {"name":"适合入门学习的名家名师","children":[{"name":"口琴学前预备班","children":[{"name":"杨晟_金口琴","children":[{"name":"活跃媒介：喜马拉雅","value":0}]},{"name":"田野老师","children":[{"name":"活跃媒介：人人讲APP","value":0}]}]},{"name":"半音阶","children":[{"name":"龙登杰","children":[{"name":"活跃媒介：人人讲APP","value":0},{"name":"活跃媒介：网易微博","value":1},{"name":"活跃媒介：知乎","value":2},{"name":"活跃媒介：虾米音乐","value":3},{"name":"活跃媒介：优酷","value":4},{"name":"活跃媒介：腾讯视频","value":5},{"name":"活跃媒介：B站","value":6}]},{"name":"沈洋","children":[{"name":"活跃媒介：优酷视频","value":0},{"name":"活跃媒介：微信公众号","value":1}]},{"name":"李让","children":[{"name":"活跃媒介：B站","value":0}]},{"name":"黄文胜","children":[{"name":"活跃媒介：书本","value":0}]},{"name":"白燕生","children":[{"name":"活跃媒介：书本","value":0}]},{"name":"陈云峰","children":[{"name":"活跃媒介：书本","value":0}]}]},{"name":"布鲁斯","children":[{"name":"张晓松","children":[{"name":"活跃媒介：蓝调口琴网","value":0},{"name":"活跃媒介：线下授课","value":1}]},{"name":"笨笨老师","children":[{"name":"活跃媒介：微信公众号","value":0},{"name":"活跃媒介：B站","value":1},{"name":"活跃媒介：优酷视频","value":2}]},{"name":"蓝馍馍","children":[{"name":"活跃媒介：人人讲APP","value":0},{"name":"活跃媒介：淘宝直播","value":1},{"name":"活跃媒介：优酷","value":2},{"name":"活跃媒介：B站","value":3},{"name":"活跃媒介：虾米音乐","value":4}]},{"name":"小光口琴","children":[{"name":"活跃媒介：淘宝直播","value":0},{"name":"活跃媒介：百度贴吧","value":1},{"name":"活跃媒介：优酷","value":2},{"name":"活跃媒介：B站","value":3}]},{"name":"杨乐","children":[{"name":"活跃媒介：CD录音","value":0}]}]}]}; if (typeof mymap1 != null && typeof mymap1 != "undefined") { echarts.util.each(mymap1.children, function (datum, index) { index % 2 === 0 && (datum.collapsed = true); }); } if (typeof mymap2 != null && typeof mymap2 != "undefined") { echarts.util.each(mymap2.children, function (datum, index) { index % 2 === 0 && (datum.collapsed = true); }); } // 基于准备好的dom，初始化echarts实例 var myChart = echarts.init(document.getElementById('echarts9630')); // 指定图表的配置项和数据 var option = { tooltip: { trigger: 'item', triggerOn: 'mousemove' }, series: [ { type: 'tree', data: [mymap1], top: '1%', left: '7%', bottom: '1%', right: '20%', symbolSize: 7, label: { normal: { position: 'left', verticalAlign: 'middle', align: 'right', fontSize: 12 } }, leaves: { label: { normal: { position: 'right', verticalAlign: 'middle', align: 'left' } } }, expandAndCollapse: true, animationDuration: 550, animationDurationUpdate: 750 } ] }; // 使用刚指定的配置项和数据显示图表。 myChart.setOption(option);]]></content>
       <categories>
-          
-          <category> 入门 </category>
-          
+        <category>入门</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 口琴 </tag>
-            
-            <tag> 信息图 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>转调速查表和调性音阶图</title>
-      <link href="/harmonica-data/2019/01/05/changes-key/"/>
-      <url>/harmonica-data/2019/01/05/changes-key/</url>
-      
-        <content type="html"><![CDATA[<h1 id="此处整理收集转调工具表格"><a href="#此处整理收集转调工具表格" class="headerlink" title="此处整理收集转调工具表格"></a><center>此处整理收集转调工具表格</center></h1><a id="more"></a><h3 id="1-通用转调表格"><a href="#1-通用转调表格" class="headerlink" title="1.通用转调表格"></a>1.通用转调表格</h3><blockquote><ul><li><code>资源提供者：Lee东东东东东</code></li><li><code>表格原作者：Harmonicazqj</code></li></ul></blockquote><p><img src="/harmonica-data/2019/01/05/changes-key/1.jpg" alt="通用转调表" title="通用转调表"></p><h3 id="2-半音阶转调表格"><a href="#2-半音阶转调表格" class="headerlink" title="2.半音阶转调表格"></a>2.半音阶转调表格</h3><blockquote><ul><li><code>资源提供者：William(江苏常州)</code></li><li><code>表格原作者：未知</code></li></ul></blockquote><p><img src="/harmonica-data/2019/01/05/changes-key/2.PNG" alt="半音阶转调表" title="半音阶转调表"></p>]]></content>
-      
-      
+      <tags>
+        <tag>口琴</tag>
+        <tag>信息图</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[转调速查表和调性音阶图]]></title>
+    <url>%2Fharmonica-data%2F2019%2F01%2F05%2Fchanges-key%2F</url>
+    <content type="text"><![CDATA[此处整理收集转调工具表格 1.通用转调表格 资源提供者：Lee东东东东东 表格原作者：Harmonicazqj 2.半音阶转调表格 资源提供者：William(江苏常州) 表格原作者：未知]]></content>
       <categories>
-          
-          <category> 乐理 </category>
-          
+        <category>乐理</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 口琴 </tag>
-            
-            <tag> 半音阶 </tag>
-            
-            <tag> 转调 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>乐谱书籍(Music Book)</title>
-      <link href="/harmonica-data/2019/01/04/music-book/"/>
-      <url>/harmonica-data/2019/01/04/music-book/</url>
-      
-        <content type="html"><![CDATA[<hr><h1 id="此处整理收集乐谱书籍"><a href="#此处整理收集乐谱书籍" class="headerlink" title="此处整理收集乐谱书籍"></a><center>此处整理收集乐谱书籍</center></h1><a id="more"></a><h3 id="1-ACG超多的半音阶-C调乐谱集合"><a href="#1-ACG超多的半音阶-C调乐谱集合" class="headerlink" title="1.ACG超多的半音阶#C调乐谱集合"></a>1.ACG超多的半音阶#C调乐谱集合</h3><ul><li><code>资源提供者：Lee东东东东东</code></li></ul><div class="row">    <embed src="./book.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
-      
-      
+      <tags>
+        <tag>口琴</tag>
+        <tag>半音阶</tag>
+        <tag>转调</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[乐谱书籍(Music Book)]]></title>
+    <url>%2Fharmonica-data%2F2019%2F01%2F04%2Fmusic-book%2F</url>
+    <content type="text"><![CDATA[此处整理收集乐谱书籍 1.ACG超多的半音阶#C调乐谱集合 资源提供者：Lee东东东东东]]></content>
       <categories>
-          
-          <category> 乐谱 </category>
-          
+        <category>乐谱</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 口琴 </tag>
-            
-            <tag> 半音阶 </tag>
-            
-            <tag> PDF </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>开天辟地第一篇</title>
-      <link href="/harmonica-data/2019/01/03/hello-harmonica/"/>
-      <url>/harmonica-data/2019/01/03/hello-harmonica/</url>
-      
-        <content type="html"><![CDATA[<h1 id="站点我已搭，内容靠大家"><a href="#站点我已搭，内容靠大家" class="headerlink" title="站点我已搭，内容靠大家"></a>站点我已搭，内容靠大家</h1><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><ul><li><code>作者：筱赟</code></li><li>网站用途<ul><li>收集规整口琴学习相关资源索引</li><li>发布独创内容，无知识产权内容     <a id="more"></a></li></ul></li></ul></blockquote><h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><blockquote><ul><li>MIUI口琴值得拥有<br><img src="/harmonica-data/2019/01/03/hello-harmonica/miui.jpg" alt="HAHA" title="米粉琴"></li></ul></blockquote>]]></content>
-      
-      
+      <tags>
+        <tag>口琴</tag>
+        <tag>PDF</tag>
+        <tag>半音阶</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[开天辟地第一篇]]></title>
+    <url>%2Fharmonica-data%2F2019%2F01%2F03%2Fhello-harmonica%2F</url>
+    <content type="text"><![CDATA[站点我已搭，内容靠大家前言 作者：筱赟 网站用途 收集规整口琴学习相关资源索引 发布独创内容，无知识产权内容 内容 MIUI口琴值得拥有]]></content>
       <categories>
-          
-          <category> 口水聊 </category>
-          
+        <category>口水聊</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 口琴 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>口琴</tag>
+      </tags>
+  </entry>
 </search>
